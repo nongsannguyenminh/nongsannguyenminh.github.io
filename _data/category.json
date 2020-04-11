@@ -1,0 +1,21 @@
+[{
+        "name": "Tất cả",
+        "dataFilter": "*"
+    },
+    {
+        "name": "Trái cây",
+        "dataFilter": "fruits"
+    },
+    {
+        "name": "Sấy",
+        "dataFilter": "dry"
+    },
+    {
+        "name": "Trà",
+        "dataFilter": "tea"
+    },
+    {
+        "name": "Khác",
+        "dataFilter": "other"
+    }
+]
