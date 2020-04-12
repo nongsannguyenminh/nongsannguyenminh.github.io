@@ -1,0 +1,25 @@
+[{
+        "name": "Dâu tươi Đà Lạt",
+        "price": "~75.000đ  1KG",
+        "type": "fruits",
+        "imgUrl": "daytay.jpg"
+    },
+    {
+        "name": "Bơ tươi Đà Lạt",
+        "price": "~37.000đ  1KG",
+        "type": "fruits",
+        "imgUrl": "bo.jpg"
+    },
+    {
+        "name": "Bông Atiso tươi",
+        "price": "~75.000đ  1KG",
+        "type": "tea",
+        "imgUrl": "atiso-kho.jpg"
+    },
+    {
+        "name": "Dây sấy khô",
+        "price": "500.000đ 1 KG",
+        "type": "dry fruits",
+        "imgUrl": "dau-say.jpg"
+    }
+]

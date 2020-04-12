@@ -71,9 +71,10 @@ layout: default
                 <br>và phân phối rộng rãi.</p>
         </div>
         <div id="product-carousel" class="product-carousel owl-carousel">
+            {% for product in site.data.favorite %}
             <div class="product-item">
                 <div class="product-thumb">
-                    <img src="img/product-1.jpg" alt="img">
+                    <img src="img/products/{{product.imgUrl}}" alt="img">
                     <ul class="product-btn-group">
                         <li><a href="product-details.html"><i class="ti-shopping-cart-full"></i></a></li>
                         <li><a href="img/product-1.jpg" class="img-popup" data-gall="products-carousel"><i class="ti-gallery"></i></a></li>
@@ -81,66 +82,12 @@ layout: default
                     </ul>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="product-details.html">Cheese butter burger</a></h3>
-                    <h4><span>$72.28</span><span class="old">$95.50</span></h4>
+                    <h3><a href="product-details.html">{{product.name}}</a></h3>
+                    <h4><span>{{product.price}}</span></h4>
                 </div>
             </div>
-            <div class="product-item">
-                <div class="product-thumb">
-                    <img src="img/product-2.jpg" alt="img">
-                    <ul class="product-btn-group">
-                        <li><a href="product-details.html"><i class="ti-shopping-cart-full"></i></a></li>
-                        <li><a href="img/product-2.jpg" class="img-popup" data-gall="products-carousel"><i class="ti-gallery"></i></a></li>
-                        <li><a href="#"><i class="ti-heart"></i></a></li>
-                    </ul>
-                </div>
-                <div class="product-content text-center">
-                    <h3><a href="product-details.html">Fresh Orannge</a></h3>
-                    <h4><span>$60.28</span><span class="old">$85.50</span></h4>
-                </div>
-            </div>
-            <div class="product-item">
-                <div class="product-thumb">
-                    <img src="img/product-3.jpg" alt="img">
-                    <ul class="product-btn-group">
-                        <li><a href="product-details.html"><i class="ti-shopping-cart-full"></i></a></li>
-                        <li><a href="img/product-3.jpg" class="img-popup" data-gall="products-carousel"><i class="ti-gallery"></i></a></li>
-                        <li><a href="#"><i class="ti-heart"></i></a></li>
-                    </ul>
-                </div>
-                <div class="product-content text-center">
-                    <h3><a href="product-details.html">Fresh Grapes</a></h3>
-                    <h4><span>$68.28</span><span class="old">$92.50</span></h4>
-                </div>
-            </div>
-            <div class="product-item">
-                <div class="product-thumb">
-                    <img src="img/product-4.jpg" alt="img">
-                    <ul class="product-btn-group">
-                        <li><a href="product-details.html"><i class="ti-shopping-cart-full"></i></a></li>
-                        <li><a href="img/product-4.jpg" class="img-popup" data-gall="products-carousel"><i class="ti-gallery"></i></a></li>
-                        <li><a href="#"><i class="ti-heart"></i></a></li>
-                    </ul>
-                </div>
-                <div class="product-content text-center">
-                    <h3><a href="product-details.html">Impulse Duffel</a></h3>
-                    <h4><span>$38.50</span><span class="old">$50.28</span></h4>
-                </div>
-            </div>
-            <div class="product-item">
-                <div class="product-thumb">
-                    <img src="img/product-5.jpg" alt="img">
-                    <ul class="product-btn-group">
-                        <li><a href="product-details.html"><i class="ti-shopping-cart-full"></i></a></li>
-                        <li><a href="img/product-5.jpg" class="img-popup" data-gall="products-carousel"><i class="ti-gallery"></i></a></li>
-                        <li><a href="#"><i class="ti-heart"></i></a></li>
-                    </ul>
-                </div>
-                <div class="product-content text-center">
-                    <h3><a href="product-details.html">Fresh Tomatos</a></h3>
-                    <h4><span>$58.50</span><span class="old">$79.28</span></h4>
-                </div>
-            </div>
+            {% endfor %}
+
         </div>
     </div>
 </section>
