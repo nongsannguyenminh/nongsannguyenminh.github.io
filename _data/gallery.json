@@ -1,22 +1,22 @@
 [{
         "imgUrl": "/img/products/1.jpg",
         "content": "",
-        "name": "Dâu"
+        "name": "Khoai lang dẻo"
     },
     {
         "imgUrl": "/img/products/2.jpg",
         "content": "",
-        "name": "Dâu"
+        "name": "hoa atiso tươi"
     },
     {
         "imgUrl": "/img/products/3.jpg",
         "content": "",
-        "name": "Trà Atiso"
+        "name": "Bơ"
     },
     {
         "imgUrl": "/img/products/4.jpg",
         "content": "",
-        "name": "Bơ"
+        "name": "Trà Atiso"
     },
     {
         "imgUrl": "/img/products/5.jpg",
@@ -26,6 +26,6 @@
     {
         "imgUrl": "/img/products/6.jpg",
         "content": "",
-        "name": "Đu đủ"
+        "name": "Khoai lang dẻo"
     }
 ]
