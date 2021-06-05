@@ -1,55 +1,68 @@
-[{
-        "name": "Dâu tươi Đà Lạt",
-        "price": "~75.000đ  1KG",
-        "type": "fruits",
-        "imgUrl": "daytay.jpg"
-    },
-    {
-        "name": "Bơ tươi Đà Lạt",
-        "price": "~37.000đ  1KG",
-        "type": "fruits",
-        "imgUrl": "bo.jpg"
-    },
-    {
-        "name": "Bông Atiso tươi",
-        "price": "~75.000đ  1KG",
-        "type": "tea",
-        "imgUrl": "atiso-kho.jpg"
-    },
-    {
-        "name": "Dây sấy khô",
-        "price": "500.000đ 1 KG",
-        "type": "dry fruits",
-        "imgUrl": "dau-say.jpg"
-    },
-    {
-        "name": "Khoai lang dẻo",
-        "price": "110.000đ 1KG",
-        "type": "fruits ",
-        "imgUrl": "khoail-lang-deo.jpg"
-    },
-    {
-        "name": "Hồng dẻo",
-        "price": "300.000đ 1KG",
-        "type": "fruits",
-        "imgUrl": "hongdeo.jpg"
-    },
-    {
-        "name": "Củ sâm đất tươi",
-        "price": "65.000đ 1KG",
-        "type": "fruits",
-        "imgUrl": "cu-sam-dat-tuoi.jpg"
-    },
-    {
-        "name": "Hoa atiso sấy",
-        "price": "380.000đ 1KG",
-        "type": "fruits dry tea",
-        "imgUrl": "atiso-kho.jpg"
-    },
-    {
-        "name": "Hồng dòn",
-        "price": "30.000đ 1KG",
-        "type": "fruits dry",
-        "imgUrl": "hong-don.jpg"
-    }
+[
+	{
+		"name": "Dâu tươi Đà Lạt",
+		"price": "~75.000đ  1KG",
+		"type": "fruits",
+		"imgUrl": "daytay.jpg"
+	},
+	{
+		"name": "Bơ tươi Đà Lạt",
+		"price": "~37.000đ  1KG",
+		"type": "fruits",
+		"imgUrl": "bo.jpg"
+	},
+	{
+		"name": "Bông Atiso tươi",
+		"price": "~75.000đ  1KG",
+		"type": "tea",
+		"imgUrl": "atiso.jpg"
+	},
+	{
+		"name": "Dây sấy khô",
+		"price": "500.000đ 1 KG",
+		"type": "dry fruits",
+		"imgUrl": "dau-say.jpg"
+	},
+	{
+		"name": "Khoai lang dẻo",
+		"price": "110.000đ 1KG",
+		"type": "fruits ",
+		"imgUrl": "khoail-lang-deo.jpg"
+	},
+	{
+		"name": "Hồng dẻo",
+		"price": "300.000đ 1KG",
+		"type": "fruits",
+		"imgUrl": "hongdeo.jpg"
+	},
+	{
+		"name": "Củ sâm đất tươi",
+		"price": "65.000đ 1KG",
+		"type": "fruits",
+		"imgUrl": "cu-sam-dat-tuoi.jpg"
+	},
+	{
+		"name": "Hoa atiso Khô",
+		"price": "380.000đ 1KG",
+		"type": "fruits dry tea",
+		"imgUrl": "atiso-kho.jpg"
+	},
+	{
+		"name": "Hồng dòn",
+		"price": "30.000đ 1KG",
+		"type": "fruits dry",
+		"imgUrl": "hong-don.jpg"
+	},
+	{
+		"name": "Hồng dòn",
+		"price": "30.000đ 1KG",
+		"type": "fruits dry",
+		"imgUrl": "hong-don.jpg"
+	},
+	{
+		"name": "Hạt Macca",
+		"price": "260.000đ 1 KG",
+		"type": "dry fruits",
+		"imgUrl": "dau-say.jpg"
+	}
 ]
